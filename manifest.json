@@ -1,0 +1,80 @@
+{
+  "title": "Menú clínico | Pulmón & Sueño",
+  "sections": [
+    {
+      "name": "Pruebas de función pulmonar",
+      "tags": "pruebas funcion pulmonar espirometria pletismografia 6mwt caminata",
+      "groups": [
+        {
+          "label": "Caminata de 6 minutos",
+          "items": [
+            {
+              "title": "6MWT — Versión muda",
+              "href": "pruebas-funcion-pulmonar/6mwt/6mwt_mudo_v0_6.html",
+              "tags": "6mwt muda troosters casas bogota"
+            },
+            {
+              "title": "6MWT — Versión con voz",
+              "href": "pruebas-funcion-pulmonar/6mwt/6mwt_voz.html",
+              "tags": "6mwt voz troosters casas bogota"
+            }
+          ]
+        },
+        {
+          "label": "Espirometría",
+          "items": []
+        }
+      ]
+    },
+    {
+      "name": "Patologías",
+      "tags": "patologias epoc asma sueno aasm",
+      "groups": [
+        {
+          "label": "EPOC",
+          "items": [
+            {
+              "title": "EPOC — Índice",
+              "href": "patologias/epoc/EPOC_Index.html",
+              "tags": "epoc indice resumen bloques"
+            },
+            {
+              "title": "EPOC — Bloque 1: Identificación y Antecedentes",
+              "href": "patologias/epoc/EPOC_Bloque1_Identificacion_y_Antecedentes.html",
+              "tags": "epoc antecedentes identificacion tabaquismo comorbilidades"
+            },
+            {
+              "title": "EPOC — Bloque 2: Síntomas, Impacto y Exacerbaciones",
+              "href": "patologias/epoc/EPOC_Bloque2_Sintomas_Impacto_Exacerbaciones.html",
+              "tags": "epoc sintomas mmrc cat exacerbaciones riesgo"
+            },
+            {
+              "title": "EPOC — Bloque 3: Paraclínicos y Fisiología",
+              "href": "patologias/epoc/EPOC_Bloque3_Paraclinicos_y_Fisiologia.html",
+              "tags": "epoc espirometria fev1 fvc abg spo2 6mwt imagen"
+            },
+            {
+              "title": "EPOC — Bloque 4: Fenotipificación y Tratamiento",
+              "href": "patologias/epoc/EPOC_Bloque4_Fenotipificacion_y_Tratamiento.html",
+              "tags": "epoc gold ab e eosinofilos ics laba lama triple"
+            },
+            {
+              "title": "EPOC — Bloque 5: Plan, Educación y KPI",
+              "href": "patologias/epoc/EPOC_Bloque5_Plan_Educacion_KPI.html",
+              "tags": "epoc plan educacion adherencia tecnica indicadores"
+            }
+          ]
+        },
+        {
+          "label": "Asma",
+          "items": []
+        },
+        {
+          "label": "Sueño",
+          "items": []
+        }
+      ]
+    }
+  ]
+}
+
