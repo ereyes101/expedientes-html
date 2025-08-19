@@ -4,27 +4,83 @@
   <meta charset="UTF-8">
   <title>Expedientes Clínicos</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #f5f5f5; text-align: center; }
-    h1 { color: #003366; }
-    .menu { margin: 30px auto; width: 300px; }
-    .menu a {
-      display: block;
-      padding: 12px;
-      margin: 8px;
-      background: #0073e6;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fa;
+      margin: 0;
+      padding: 20px;
     }
-    .menu a:hover { background: #005bb5; }
+    h1 { color: #2c3e50; }
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 250px;
+    }
+    .card h2 {
+      font-size: 18px;
+      margin: 0 0 10px;
+      color: #34495e;
+    }
+    .card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .card ul li {
+      margin: 5px 0;
+    }
+    .card ul li a {
+      text-decoration: none;
+      color: #2980b9;
+    }
+    .card ul li a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>Menú de Expedientes</h1>
+  <h1>Menú Clínico</h1>
   <div class="menu">
-    <a href="patologias/epoc/epoc_evaluacion.html">EPOC - Evaluación</a>
-    <a href="patologias/asma/asma_maestro.html">Asma - Expediente Maestro</a>
-    <a href="pruebas-funcion-pulmonar/6mwt/6MWT.html">Caminata 6 Minutos</a>
+    
+    <!-- Administración -->
+    <div class="card">
+      <h2>Administración</h2>
+      <ul>
+        <li><a href="administracion/archivo1.html">Archivo 1</a></li>
+        <li><a href="administracion/archivo2.html">Archivo 2</a></li>
+      </ul>
+    </div>
+
+    <!-- EPOC -->
+    <div class="card">
+      <h2>EPOC</h2>
+      <ul>
+        <li><a href="patologias/epoc/EPOC_Index.html">Índice</a></li>
+        <li><a href="patologias/epoc/epoc_evaluacion.html">Evaluación</a></li>
+        <li><a href="patologias/epoc/EPOC_Bloque1_Identificacion_y_Antecedentes.html">Bloque 1</a></li>
+        <li><a href="patologias/epoc/EPOC_Bloque2_Sintomas_Impacto_Exacerbaciones.html">Bloque 2</a></li>
+        <li><a href="patologias/epoc/EPOC_Bloque3_Paraclinicos_y_Fisiologia.html">Bloque 3</a></li>
+        <li><a href="patologias/epoc/EPOC_Bloque4_Fenotipificacion_y_Tratamiento.html">Bloque 4</a></li>
+        <li><a href="patologias/epoc/EPOC_Bloque5_Plan_Educacion_KPI.html">Bloque 5</a></li>
+      </ul>
+    </div>
+
+    <!-- Pruebas de función pulmonar -->
+    <div class="card">
+      <h2>Pruebas de función pulmonar</h2>
+      <ul>
+        <li><a href="pruebas-funcion-pulmonar/6mwt/6mwt_mudo_v0_6.html">6MWT - Versión muda</a></li>
+        <li><a href="pruebas-funcion-pulmonar/6mwt/6mwt_voz.html">6MWT - Con voz</a></li>
+      </ul>
+    </div>
+
   </div>
 </body>
 </html>
