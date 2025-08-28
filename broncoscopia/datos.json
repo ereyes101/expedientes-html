@@ -1,0 +1,78 @@
+{
+  "procedimientos": [
+    {
+      "cups": "332201",
+      "descripcion": "Broncoscopia con lavado bronquial"
+    },
+    {
+      "cups": "332203",
+      "descripcion": "Broncoscopia con lavado broncoalveolar (LBA)"
+    },
+    {
+      "cups": "332204",
+      "descripcion": "Broncoscopia con cepillado bronquial"
+    },
+    {
+      "cups": "314602",
+      "descripcion": "Biopsia de tráquea vía endoscópica"
+    },
+    {
+      "cups": "332401",
+      "descripcion": "Biopsia bronquial vía endoscópica"
+    },
+    {
+      "cups": "332402",
+      "descripcion": "Biopsia transbronquial"
+    }
+  ],
+  "hallazgos": [
+    {
+      "id": "inflamacion",
+      "descripcion": "Signos de inflamación difusa (eritema, edema)",
+      "texto_reporte": "Se observan signos de inflamación difusa en la mucosa bronquial, caracterizados por eritema y edema.",
+      "cie10": "J20.9"
+    },
+    {
+      "id": "secreciones",
+      "descripcion": "Secreciones purulentas abundantes",
+      "texto_reporte": "Presencia de secreciones mucopurulentas abundantes en la vía aérea explorada.",
+      "cie10": "R09.3"
+    },
+    {
+      "id": "estenosis_traqueal",
+      "descripcion": "Estenosis traqueal",
+      "texto_reporte": "Se identifica estenosis a nivel de la tráquea.",
+      "cie10": "J95.03"
+    },
+    {
+      "id": "estenosis_bronquial",
+      "descripcion": "Estenosis bronquial",
+      "texto_reporte": "Se identifica estenosis a nivel de bronquio.",
+      "cie10": "J98.09"
+    },
+    {
+      "id": "tumor_maligno",
+      "descripcion": "Lesión tumoral sugestiva de malignidad",
+      "texto_reporte": "Se observa lesión endobronquial de aspecto neoplásico, sugestiva de malignidad.",
+      "cie10": "C34.0"
+    },
+    {
+      "id": "tumor_benigno",
+      "descripcion": "Lesión tumoral sugestiva de benignidad",
+      "texto_reporte": "Se observa lesión endobronquial de aspecto polipoide, sugestiva de benignidad.",
+      "cie10": "D14.2"
+    },
+    {
+      "id": "hemorragia_alveolar",
+      "descripcion": "Hemorragia alveolar difusa",
+      "texto_reporte": "Se constata la presencia de sangrado difuso proveniente de la vía aérea distal, compatible con hemorragia alveolar.",
+      "cie10": "R04.8"
+    },
+    {
+      "id": "cuerpo_extrano",
+      "descripcion": "Cuerpo extraño en la vía aérea",
+      "texto_reporte": "Se identifica la presencia de un cuerpo extraño en la vía aérea.",
+      "cie10": "T17.9"
+    }
+  ]
+}

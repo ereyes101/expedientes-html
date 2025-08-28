@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Broncoscopia</title>
+    <link rel="stylesheet" href="broncoscopia.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reporte Automatizado de Broncoscopia Flexible</h1>
+
+        <form id="report-form">
+            <fieldset>
+                <legend>Datos del Paciente</legend>
+                <label for="patient-name">Nombre:</label>
+                <input type="text" id="patient-name" name="patient-name" required>
+
+                <label for="patient-id">Cédula/ID:</label>
+                <input type="text" id="patient-id" name="patient-id" required>
+
+                <label for="patient-eps">EPS:</label>
+                <input type="text" id="patient-eps" name="patient-eps">
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos del Procedimiento</legend>
+                <label for="procedure-date">Fecha:</label>
+                <input type="date" id="procedure-date" name="procedure-date" required>
+
+                <label for="doctor-name">Médico:</label>
+                <input type="text" id="doctor-name" name="doctor-name" required>
+
+                <label for="institution">Institución:</label>
+                <input type="text" id="institution" name="institution">
+            </fieldset>
+
+            <fieldset>
+                <legend>Hallazgos Endoscópicos</legend>
+                <div id="findings-container">
+                    <!-- Los hallazgos se cargarán aquí desde datos.json -->
+                    <p>Cargando hallazgos...</p>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Conclusión y Plan</legend>
+                <textarea id="conclusion" name="conclusion" rows="6"></textarea>
+            </fieldset>
+
+            <button type="submit">Generar Reporte</button>
+        </form>
+
+        <hr>
+
+        <h2>Reporte Generado</h2>
+        <div id="report-output" class="report-box">
+            <!-- El reporte generado se mostrará aquí -->
+            <p>El reporte aparecerá aquí después de llenar el formulario.</p>
+        </div>
+    </div>
+
+    <script src="broncoscopia.js"></script>
+</body>
+</html>
